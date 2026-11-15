@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: ml_proj
+Version: 0.0.1
+Author: mahi
+Author-email: mashfiulislam@gmail.com
+Requires: src
+Requires: src.pipeline
+Requires: src.configuration
+Requires: src.logger
+Requires: src.entity
+Requires: src.constants
+Requires: src.utils
+Requires: src.components
+Requires: src.exception
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires
