@@ -16,6 +16,9 @@ Requires-Dist: pydantic
 Requires-Dist: xgboost
 Requires-Dist: lightgbm
 Requires-Dist: catboost
+Requires-Dist: psycopg2-binary
+Requires-Dist: sqlalchemy
+Requires-Dist: python-dotenv
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

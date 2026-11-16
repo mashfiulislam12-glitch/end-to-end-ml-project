@@ -11,4 +11,7 @@ pydantic
 xgboost
 lightgbm
 catboost
+psycopg2-binary
+sqlalchemy
+python-dotenv
 -e .

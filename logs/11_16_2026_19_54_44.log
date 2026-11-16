@@ -1,0 +1,3 @@
+[ 2026-11-16 19:54:44,265 ] 12 root - INFO - starting data ingestion
+[ 2026-11-16 19:54:44,265 ] 12 root - INFO - reading data from postgresql
+[ 2026-11-16 19:54:46,850 ] 26 root - INFO - logging got an error
