@@ -13,6 +13,9 @@ Requires-Dist: joblib
 Requires-Dist: fastapi
 Requires-Dist: uvicorn
 Requires-Dist: pydantic
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: catboost
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
