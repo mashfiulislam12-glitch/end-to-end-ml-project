@@ -1,0 +1,4 @@
+[ 2026-11-18 07:17:46,983 ] 23 root - INFO - starting data ingestion
+[ 2026-11-18 07:17:46,983 ] 13 root - INFO - reading data from postgresql
+[ 2026-11-18 07:17:47,351 ] 26 root - INFO - successfully fetched data from postgresql
+[ 2026-11-18 07:17:47,359 ] 45 root - INFO - Train-test split completed successfully
