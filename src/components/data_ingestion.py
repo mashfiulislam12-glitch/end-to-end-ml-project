@@ -7,6 +7,8 @@ from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from src.components.data_transformation import data_transformation
 from src.components.data_transformation import datatransformationconfig
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
@@ -61,6 +63,10 @@ try:
         train_data,test_data=obj.initiate_data_ingestion()
 
         data_transformation=data_transformation()
-        data_transformation.initiate_transformation()
+        train_arr,test_arr,_=data_transformation.initiate_transformation()
+
+        model_trainer=ModelTrainer()
+        model_trainer.initiate_model_trainer(train_arr,test_arr)
+
 except Exception as e:
     raise CustomExeption(e,sys)

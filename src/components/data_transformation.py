@@ -32,8 +32,7 @@ class data_transformation:
 
             cat_pipe=Pipeline(
                 steps=[
-                    ('ohe',OneHotEncoder(sparse_output=False,handle_unknown='ignore')),
-                    ('scaler',StandardScaler())
+                    ('ohe',OneHotEncoder(sparse_output=False,handle_unknown='ignore'))
                 ]
             )
 
